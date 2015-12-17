@@ -1,0 +1,17 @@
+import UIKit
+
+var variable = 0...100
+
+for n in variable {
+    if n % 5 == 0 {
+        print ("# \(n) Bingo!!!")
+    }
+    if n >= 30 && n <= 40 {
+        print ("# \(n) Viva Swift!!!")
+    }
+    if n % 2 == 0 {
+        print("# \(n) Par")
+    }else{
+        print("# \(n) Impar")
+    }
+}
